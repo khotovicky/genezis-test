@@ -1,0 +1,37 @@
+@import './base.css';
+
+#app {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+h1,
+h2 {
+  font-family: 'PT Sans', Arial, sans-serif;
+  color: #363b44;
+}
+
+h1 {
+  margin-top: 24px;
+  padding: 40px 0;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+  }
+}
