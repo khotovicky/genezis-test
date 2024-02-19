@@ -111,23 +111,8 @@ const setValue = (newValue: Item | null) => {
 }
 
 .dropdown li.selected::before {
-  content: '';
+  content: '✓';
   position: absolute;
-  background: black;
-  width: 8px;
-  height: 1px;
-  bottom: 50%;
-  left: 10px;
-  transform: rotate(-45deg);
-}
-.dropdown li.selected::after {
-  content: '';
-  position: absolute;
-  background: black;
-  width: 4px;
-  height: 1px;
-  bottom: 45%;
   left: 8px;
-  transform: rotate(45deg);
 }
 </style>
